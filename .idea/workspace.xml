@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3874fb3-ec07-4101-bf2a-328533f53961" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+    <list default="true" id="f3874fb3-ec07-4101-bf2a-328533f53961" name="Changes" comment="add feature file">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -44,10 +44,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/bismasatria/Downloads/integrate-cucumber-xray"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
@@ -107,8 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="integrate-cucumber-xray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: User able to login with correct credentials" />
         <item itemvalue="Cucumber Java.Scenario: User cannot login with invalid credentials" />
@@ -131,11 +155,19 @@
       <option name="project" value="LOCAL" />
       <updated>1687692063374</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add feature file">
+      <created>1687693994932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687693994932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add feature file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feature file" />
   </component>
 </project>
