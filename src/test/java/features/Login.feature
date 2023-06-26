@@ -1,8 +1,5 @@
 Feature: Login
 
-  Background:
-    User redirected to login page
-
     @id:1@regression@smoke
     Scenario: User able to login with correct credentials
       Given User input "valid@email.com" in email field
